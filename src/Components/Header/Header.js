@@ -8,7 +8,7 @@ const Header = () => {
       <div className=" d-flex ms-auto d-block ">
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav  ">
-            <li className="nav-item px-5">
+            <li className="nav-item px-3">
             <Link className="nav-link active" to="/">Home</Link>
             </li>
             <li className="nav-item px-3">

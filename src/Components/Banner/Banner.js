@@ -5,6 +5,7 @@ import "./Banner.css";
 
 const Banner = () => {
   return (
+    
     <div className="banner-container ">
       <div className="">
         <div className="row d-flex banner align-items-center justify-content-center ">
@@ -12,6 +13,7 @@ const Banner = () => {
             <h1 className="title mt-3">
               WE CREATE SUCCESS
             </h1>
+            <h2 className="text-white  mt-3">University Of Programming Hero</h2>
             <p className="text-white  mt-3">
             This is one of the best programming academy. It is the best programming community.
             </p>
