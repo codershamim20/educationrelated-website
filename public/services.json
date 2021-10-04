@@ -1,7 +1,7 @@
 [
     {
       "id":1,
-      "course":"HTML",
+      "courses":"HTML",
       "duration":"2 month",
       "rating":"5 Star",
       "cost":100000,
@@ -10,7 +10,7 @@
     },
     {
       "id":2,
-      "course":"CSS",
+      "courses":"CSS",
       "duration":"3 month",
       "rating":"5 Star",
       "cost":90000,
@@ -19,7 +19,7 @@
     },
     {
       "id":3,
-      "course":"Javascript",
+      "courses":"Javascript",
       "duration":"4 month",
       "rating":"5 Star",
       "cost":95000,
@@ -28,7 +28,7 @@
     },
     {
       "id":4,
-      "course":"React",
+      "courses":"React",
       "duration":"2.5 month",
       "rating":"5 Star",
       "cost":100000,
@@ -37,7 +37,7 @@
     },
     {
       "id":5,
-      "course":"Node JS",
+      "courses":"Node JS",
       "duration":"4 month",
       "rating":"5 Star",
       "cost":100000,
@@ -46,12 +46,12 @@
     },
     {
       "id":6,
-      "course":"Python",
+      "courses":"Python",
       "duration":"4 month",
       "rating":"5 Star",
       "cost":100000,
       "country":"USA",
       "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTHRW613kHW2eSY4j64DsUJ6EvneJx3DwMrfg&usqp=CAU"
-    },
+    }
     
   ]

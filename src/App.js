@@ -5,13 +5,14 @@ import About from './Components/About/About';
 import Academic from './Components/Academic/Academic';
 import Header from './Components/Header/Header';
 import Footer from './Components/Footer/Footer';
-import Services from './Components/Service/Services';
+
 import {
   BrowserRouter as Router,
   Switch,
   Route
 } from "react-router-dom";
 import NotFound from './Components/NotFound/NotFound';
+import Display from './Components/Display/Display';
 
 function App() {
   return (
@@ -20,33 +21,27 @@ function App() {
       <Router>
       <Header></Header>
       <Switch>
-          <Route exact path='/home'>
-          <Home></Home>
-          </Route>
           <Route exact path='/'>
           <Home></Home>
           </Route>
-          <Route exact path="/about">
+          <Route  path='/home'>
+          <Home></Home>
+          </Route>
+          <Route  path="/about">
           <About></About>
           </Route>
-          
-          <Route exact path="/academic">
+          <Route  path='/academic'>
             <Academic></Academic>
           </Route>
-          <Route exact path='/services'>
-          <Services></Services>
+          <Route  path='/display'>
+          <Display></Display>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>
           </Route>
         </Switch>
-        
         <Footer></Footer>
-        
-      
     </Router>
-           
-
     </div>
   );
 }

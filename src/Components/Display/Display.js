@@ -1,42 +1,39 @@
 import React, { useEffect, useState } from 'react';
-import Service from '../Service/Services';
 
+import Card from '../single-card/Card';
 
-
-const Course = () => {
-    const [service, setService] = useState([]);
-    // iteams on cart 
+const Display = () => {
+    const [cards, setCards] = useState([]);
+    
     
     useEffect(() => {
         fetch('./services.json')
             .then(res => res.json())
-        .then(data=>console.log(data))
+        .then(data=>setCards(data))
     },[])
     return (
         <div>
-            <h2 className='text-center'>Courses</h2>
+            <h2 className='text-center'>COURSES WE OFFER </h2>
             <div className="row">
                 <div className="col-md-12">
                     {/* card-display-area */}
                     <div className="row g-2">
                         {
-                            cards.map(service => <Service
-                                key={service.id}
-                                handleAddIteam={handleAddIteam}
-                                card={service}
+                            cards.map(card => <Card
+                                key={card.id}
+                                card={card}
                             >
 
-                            </Service>)
+                            </Card>)
                         }
                     
                     
                     </div>
                     
                 </div>
-               
             </div>
         </div>
     );
 };
 
-export default Course;
+export default Display;
