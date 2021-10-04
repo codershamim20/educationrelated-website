@@ -3,6 +3,7 @@ import React from 'react';
 const Academic = () => {
     return (
         <div>
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS6UYrZFfhLVoq2oNuos3kqN1cZm6jAOR7-aA&usqp=CAU" width="600px" className="d-flex mx-auto d-block my-5" alt="" />
             <h1 className="text-center my-5">Academic Outline about Our Courses</h1>
             <div className="accordion" id="accordionExample">
   <div className="accordion-item">
