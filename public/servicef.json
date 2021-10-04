@@ -1,0 +1,39 @@
+[
+    {
+      "id":1,
+      "courses":"HTML",
+      "duration":"2 month",
+      "rating":"5 Star",
+      "cost":100000,
+      "country":"USA",
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_jmYvuBW0ErXRZkXHHgNS13iC4ODrAcE6aw&usqp=CAU"
+    },
+    {
+      "id":2,
+      "courses":"CSS",
+      "duration":"3 month",
+      "rating":"5 Star",
+      "cost":90000,
+      "country":"Bangladesh",
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQaYxk6nnEGhtR44xkAyFzgD4JVrVarB6bVpw&usqp=CAU"
+    },
+    {
+      "id":3,
+      "courses":"Javascript",
+      "duration":"4 month",
+      "rating":"5 Star",
+      "cost":95000,
+      "country":"USA",
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTQMkEfS8V17kcUy2Zt7ogmThINwd7GM0KAjA&usqp=CAU"
+    },
+    {
+      "id":4,
+      "courses":"React",
+      "duration":"2.5 month",
+      "rating":"5 Star",
+      "cost":100000,
+      "country":"USA",
+      "img":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7Cg-EWYJIwroSejudTFCXQF89jsp3USr3WA&usqp=CAU"
+    }   
+    
+  ]

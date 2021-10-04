@@ -8,12 +8,12 @@ const Banner = () => {
     <div className="banner-container ">
       <div className="">
         <div className="row d-flex banner align-items-center justify-content-center ">
-          <div className="col-md-6 ">
-            <h1 className="title">
+          <div className="col-md-7">
+            <h1 className="title mt-3">
               WE CREATE SUCCESS
             </h1>
-            <p className="text-white text-center mt-3">
-              This is one of the best programming academy. It is the best programming community.
+            <p className="text-white  mt-3">
+            This is one of the best programming academy. It is the best programming community.
             </p>
             <button className="mt-3 about-btn rounded">Learn More</button>
           </div>

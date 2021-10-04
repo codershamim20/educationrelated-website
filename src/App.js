@@ -12,7 +12,7 @@ import {
   Route
 } from "react-router-dom";
 import NotFound from './Components/NotFound/NotFound';
-import Display from './Components/Display/Display';
+import Services from './Components/Services/Services';
 
 function App() {
   return (
@@ -33,8 +33,8 @@ function App() {
           <Route  path='/academic'>
             <Academic></Academic>
           </Route>
-          <Route  path='/display'>
-          <Display></Display>
+          <Route  path='/services'>
+          <Services></Services>
           </Route>
           <Route path='*'>
             <NotFound></NotFound>
